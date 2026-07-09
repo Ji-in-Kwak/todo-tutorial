@@ -10,6 +10,9 @@ export default function Page() {
           <h1 className="text-3xl font-bold tracking-tight">
             ✨ <AuroraText>{title}</AuroraText>
           </h1>
+          <p className="mt-1 text-sm text-muted-foreground">
+            오늘도 한 걸음씩, 잘 해내고 있어요.
+          </p>
           <p className="font-mono text-xs text-muted-foreground">
             (Press <kbd>d</kbd> to toggle dark mode)
           </p>
